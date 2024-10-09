@@ -21,6 +21,8 @@ This project simulates the Enigma machine, an encryption device used during Worl
 ### Installation
 
 1. Clone the repository:
-   ```bash
+   ```
    git clone https://github.com/Christopher-Toth/enigma-machine.git
    cd enigma-machine
+2. Compile the program:
+   ```
