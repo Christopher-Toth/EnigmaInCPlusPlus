@@ -24,5 +24,38 @@ This project simulates the Enigma machine, an encryption device used during Worl
    ```
    git clone https://github.com/Christopher-Toth/enigma-machine.git
    cd enigma-machine
+   ```
+   
 2. Compile the program:
    ```
+   g++ enigma.cpp -o enigma
+   ```
+   
+3. Run the simulation:
+   ```
+   ./enigma
+   ```
+
+## Usage
+
+1. Configure the Plugboard: Enter pairs of letters to connect. Type "DONE" when finished.
+2. Select Rotors: Choose the desired rotors, initial positions, and ring settings.
+3. Select Reflector: Choose either reflector B or C.
+4. Encrypt a Message: Input the message you wish to encrypt.
+
+## Example
+```
+Welcome to the Enigma Machine!
+Available letters: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Enter a pair of letters to connect (or 'done' to finish): AB
+...
+Select reflector (B or C): B
+Enter message to encrypt: HELLO
+Encrypted message: XYZAB
+```
+
+## Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests for enhancements or bug fixes.
+
+## License
+This project is licensed under the MIT License.
